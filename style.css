@@ -137,7 +137,7 @@ nav h2 span{
     font-family: sans-serif;
     font-weight: 900;
     font-size: 70px;
-    z-index: 6;
+    
    
 }
 .txt h3{
@@ -177,6 +177,101 @@ outline: none;
     top: 6px;
 
 }
+
+
+.main-sobre{}
+
+.back-color-sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 100px;
+}
+.back-color-sobre img{
+    width: 440px;
+    height: auto;
+}
+.texto-sobre{
+    width: 550px;
+}
+.main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: auto 0;
+}
+
+.texto-sobre h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.texto-sobre h5{
+color: #fff;
+font-family: sans-serif;
+letter-spacing: 2px;
+font-weight: 500;
+font-size: 20px;
+margin-bottom: 25px;
+}
+.texto-sobre p{
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.texto-sobre button{
+ background-color: #edc065;  
+  color: #fff;
+  text-transform: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.texto-sobre button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #edc065;
+}
+
+.socias{
+    display: flex;
+    justify-content: space-between;
+   max-width: 100%;
+   position: absolute;
+
+}
+
+.socias a{
+    color: black;
+}
+.socias a:hover{
+    color: #edc065;
+}
+.fa-brands{
+    padding: 13px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 768px){
