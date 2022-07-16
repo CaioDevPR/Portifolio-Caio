@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width:378px) {
+@media screen and (min-width: 300px) and (max-width:374px) {
     nav h2{
         font-size: 20px;
         position: absolute;
@@ -135,4 +135,142 @@
             margin-bottom: 45px;
         }
      }
+
+
+
+
+     media screen and (min-width: 375px) and (max-width: 667px) {
+        nav h2{
+            font-size: 20px;
+            position: absolute;
+            left: 3px;
+            top: 1%;
+            }
+            .txt h4{
+                font-size: 13px;
+            }
+            .txt h1{
+                font-size: 30px;
+            }
+            .txt h3{
+                font-size: 13px;
+            }
+            .container-btn form{
+                width: 260px;
+                max-width: 100%;
+            }
+            .back-color-sobre{
+                padding: 20px 20px;
+                width: 100%;
+            }
+            .back-color-sobre img{
+                width: 110px;
+                height: auto;
+                position: relative;
+                left: -5px;
+            }
+            .texto-sobre h2{
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+           
+    
+            .main-sobre{
+                position: relative;
+                left: -19px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 350px;
+               text-align: justify;
+               margin: auto 0;
+                
+            }
+            .texto-sobre h5{
+                color: #edc065;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 15px;
+                margin-bottom: 25px;
+                margin-left: 8px;
+                text-align: justify;
+                }
+                .texto-sobre p{
+                    font-family: sans-serif;
+                    color: #fff;
+                    line-height: 18px;
+                    letter-spacing: 1px;
+                    font-size: 13px;
+                    margin-bottom: 45px;
+                }
+         }
+         @media screen and (max-width: 812px) and (orientation: landscape) {
+            nav ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 12px;
+                font-family: sans-serif;
+                font-weight: 700;
+                padding: 8px 18px ;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                transition: all 0.3s ease;
+                 
+         }
+         .back-color-sobre{
+            padding: 20px 20px;
+            width: 100%;
+        }
+        .back-color-sobre img{
+            width: 160px;
+            height: auto;
+            position: relative;
+            left: 12%;
+        }
+        .texto-sobre h2{
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+       
+
+        .main-sobre{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 550px;
+           text-align: justify;
+           margin: auto 0;
+            
+        }
+        .texto-sobre{
+            position: relative;
+            left: 18%;
+        }
+        .texto-sobre h5{
+            color: #edc065;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 25px;
+            margin-left: 8px;
+            text-align: justify;
+            }
+            .texto-sobre p{
+                font-family: sans-serif;
+                color: #fff;
+                line-height: 18px;
+                letter-spacing: 1px;
+                font-size: 13px;
+                margin-bottom: 45px;
+            }
+            li:nth-child(5) > a:nth-child(1) {
+              border:none;
+            }
+              li:nth-child(5) > a:nth-child(1):hover {
+               background-color: transparent;
+               color: #fff;
+               }
+          }
 
